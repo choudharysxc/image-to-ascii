@@ -1,7 +1,7 @@
 from PIL import Image
 
 # Open the image
-img = Image.open("rudra.jpg")
+img = Image.open("YourImage.jpg")
 
 # Convert the image to RGB if it is not already in RGB format
 img = img.convert("RGB")
